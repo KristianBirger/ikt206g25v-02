@@ -24,7 +24,7 @@ namespace StringLibraryTest
         public void TestDoesNotStartWithUpper()
         {
             // Tests that we expect to return false.
-            string[] words = { "action", "zebra", "abc", "αυτοκινητοβιομηχανία", "государство",
+            string[] words = { "action", "action", "abc", "αυτοκινητοβιομηχανία", "государство",
                                "1234", ".", ";", " " };
             foreach (var word in words)
             {
