@@ -1,6 +1,5 @@
 ﻿using System;
 using UtilityLibraries;
-
 class Program
 {
     static void Main(string[] args)
@@ -29,7 +28,8 @@ class Program
                 Console.ReadKey();
             }
             Console.Clear();
-            Console.WriteLine($"{Environment.NewLine}Press <Enter> only to exit; otherwise, enter a string and press <Enter>:{Environment.NewLine}");
+            Console.WriteLine(
+                $"{Environment.NewLine}Press <Enter> only to exit; otherwise, enter a string and press <Enter>:{Environment.NewLine}");
             row = 3;
         }
     }
